@@ -18,10 +18,10 @@ function convertToRoman(num) {
       'I' : 1
     }
 
-    // each values of the hash will be tested
-    // add the roman numeral to our collector variable as long as the value is less than the original number
-    // we subtract the value with the original number everytime we add roman numerals to the variable
-    // repeat this until all values are tested and number is 0
+    // each key-values of the hash will be tested
+    // add the key to our collector variable as long as its value is less than the original number
+    // we subtract that value to the original number everytime we add keys to the variable
+    // repeat this until all key-values are tested and number is 0
     
     for (let i = 0; i <= Object.keys(hash).length; i++ ){
       while (Object.values(hash)[i] <= num) {
