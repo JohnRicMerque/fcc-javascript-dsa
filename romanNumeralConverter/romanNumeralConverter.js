@@ -1,3 +1,5 @@
+// referenced this to the freecodecamp solution but using hash map and referencing Object 
+
 function convertToRoman(num) {
 
     let romanNumeral = ""
