@@ -1,3 +1,5 @@
+// referenced this solution to Chhaian Pin's algorithm, but i modified some parts of it.
+
 function checkCashRegister (price, cash, cid) {
     const currencyAmount = {
       "PENNY": .01,
